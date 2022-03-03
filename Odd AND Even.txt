@@ -1,0 +1,25 @@
+using System;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int num = Convert.ToInt32(Console.ReadLine());
+            
+            if(num == 1)
+            {
+                Console.WriteLine("1 is neither a odd nor a even number");
+            }
+            else if(num % 2 == 0)
+            {
+                Console.WriteLine("Even");
+            }
+            else
+            {
+                Console.WriteLine("Odd");
+            }
+        }
+    }
+}

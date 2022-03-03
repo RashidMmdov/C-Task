@@ -1,0 +1,26 @@
+using System;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int num_1 = Convert.ToInt32(Console.ReadLine());
+            int num_2 = Convert.ToInt32(Console.ReadLine());
+
+            if( num_1 == num_2)
+            {
+                Console.WriteLine("Ededler bir birine beraberdir");
+            }
+            else if( num_1 > num_2)
+            {
+                Console.WriteLine("num_1 boyukdur num_2 den.");
+            }
+            else
+            {
+                Console.WriteLine("num_2 boyukdur num_1 den.");
+            }
+        }
+    }
+}
